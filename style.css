@@ -1023,3 +1023,10 @@ nav.bottom-navigation,
 .player-container:has(video:picture-in-picture) {
     display: none !important;
 }
+
+/* ইভেন্ট কার্ডে লাইভ ডটের পালস অ্যানিমেশন */
+@keyframes pulseDot {
+    0% { box-shadow: 0 0 0 0 rgba(255,59,59,0.6); }
+    70% { box-shadow: 0 0 0 6px rgba(255,59,59,0); }
+    100% { box-shadow: 0 0 0 0 rgba(255,59,59,0); }
+}
